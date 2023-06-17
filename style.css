@@ -1,0 +1,46 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: hsl(190, 10%, 12%);
+  --secondary: hsl(138, 25%, 56%);
+  --light: hsl(4, 100%, 97%);
+  --abstract: hsl(42, 75%, 56%);
+  --purple: hsl(266, 17%, 46%);
+}
+
+body {
+  background-color: var(--light);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+h1 {
+  color: var(--primary);
+  text-align: center;
+}
+.box {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--secondary);
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 32rem;
+  height: 32rem;
+}
+.hover {
+  background-color: var(--primary);
+}
