@@ -60,9 +60,10 @@ h1 {
   box-sizing: content-box;
   display: flex;
   flex-wrap: wrap;
-  max-width: 512px;
-  max-height: 512px;
+  width: 512px;
+  height: 512px;
   border: 4px solid var(--abstract);
+  background-color: var(--abstract);
 }
 .hover {
   background-color: var(--primary);
