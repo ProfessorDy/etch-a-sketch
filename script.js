@@ -26,7 +26,7 @@ button.addEventListener("click", () => {
   let promptValue = prompt("Insert Level i.e 1,2 or 3", "1");
 
   if (promptValue) {
-    if (promptValue === "1" || "2" || "3" || "4") {
+    if (promptValue === "1" || "2" || "3") {
       if (promptValue === "1") {
         elementNumber = 256;
         boxType = "box1";
@@ -41,9 +41,9 @@ button.addEventListener("click", () => {
         createBoxes(boxType);
       }
     } else {
-      alert("You have to insert 1, 2, 3 or 4");
+      alert("You have to insert 1, 2, or 3");
     }
   } else {
-    alert("You have to insert 1, 2, 3 or 4");
+    alert("You have to insert 1, 2, or 3");
   }
 });
