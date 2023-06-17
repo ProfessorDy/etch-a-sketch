@@ -26,9 +26,23 @@ h1 {
   text-align: center;
 }
 .box {
-  width: 2rem;
-  height: 2rem;
   background-color: var(--secondary);
+}
+.box1 {
+  width: 32px;
+  height: 32px;
+}
+.box2 {
+  width: 16px;
+  height: 16px;
+}
+.box3 {
+  width: 8px;
+  height: 8px;
+}
+.box4 {
+  width: 4px;
+  height: 4px;
 }
 .main {
   display: flex;
@@ -38,9 +52,15 @@ h1 {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  width: 32rem;
-  height: 32rem;
+  max-width: 512px;
+  max-height: 512px;
 }
 .hover {
   background-color: var(--primary);
+}
+.button {
+  height: 44px;
+  width: 66px;
+  text-align: center;
+  margin: 0 auto;
 }
